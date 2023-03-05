@@ -65,7 +65,7 @@ let results = [];
 let mainContent = document.querySelector(".main-content.user");
 
 mainContent.addEventListener("click", (e) => {
-    array.push(e.target.innerText);
+    results.push(e.target.innerText);
 })
 
 modal3Btn.addEventListener("click", (e) => {
