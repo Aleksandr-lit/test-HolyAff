@@ -61,7 +61,7 @@ function newComment() {
 
 
 let modal3Btn = document.querySelector("#p_modal_button3");
-let array = [];
+let results = [];
 let mainContent = document.querySelector(".main-content.user");
 
 mainContent.addEventListener("click", (e) => {
@@ -70,7 +70,7 @@ mainContent.addEventListener("click", (e) => {
 
 modal3Btn.addEventListener("click", (e) => {
     // e.preventDefault();
-    array.forEach((elem) => {
+    results.forEach((elem) => {
         console.log(elem);
     })
 })
