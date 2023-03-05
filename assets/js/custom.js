@@ -69,7 +69,6 @@ mainContent.addEventListener("click", (e) => {
 })
 
 modal3Btn.addEventListener("click", (e) => {
-    // e.preventDefault();
     results.forEach((elem) => {
         console.log(elem);
     })
